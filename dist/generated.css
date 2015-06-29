@@ -1,0 +1,39 @@
+.fill {
+  color: #fff;
+  background-color: #222;
+  border-color: #000;
+}
+.navbar-inverse .navbar-nav > li > a,
+.fill a,
+.fill-light a {
+  color: #d9d9d9;
+}
+.fill a:hover,
+.fill-light a:hover {
+  color: #fff;
+}
+.site-branding a,
+.site-branding a:hover {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+  border-top-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+.navbar-brand {
+  color: #fff!important;
+}
+.fill-light {
+  color: #fff;
+  background: #484848;
+}

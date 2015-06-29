@@ -1,0 +1,29 @@
+/**
+ * Accessibility
+ */
+
+.screen-reader-text {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.screen-reader-text:focus {
+  top: 5px;
+  left: 5px;
+  z-index: 100000;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 15px 23px 14px;
+  clip: auto !important;
+  font-size: @font-size-base;
+  font-weight: @font-weight-strong;
+  line-height: normal;
+  color: @brand-primary;
+  text-decoration: none;
+  background-color: @body-bg;
+  border-radius: @border-radius-base;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+}

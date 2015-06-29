@@ -1,0 +1,42 @@
+{
+  "name": "matchstick",
+  "version": "0.1.0",
+  "description": "A proposal specification for Flint 2.0; a responsive, minimalist theme inspired by Twitter Bootstrap 3 and Automattic's _s theme. This is the parent/starter theme of the Sparks WordPress Development Framework, but also works out-of-the-box.",
+  "main": "index.php",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starverte/matchstick.git"
+  },
+  "keywords": [
+    "css",
+    "less",
+    "mobile-first",
+    "responsive",
+    "framework",
+    "web",
+    "WordPress"
+  ],
+  "author": "Star Verte LLC",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/starverte/matchstick/issues"
+  },
+  "homepage": "https://github.com/starverte/matchstick#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "csscomb": "^3.1.8",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-csscomb": "^3.0.1",
+    "grunt-prettify": "^0.4.0"
+  }
+}

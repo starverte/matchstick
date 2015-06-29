@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://matchstick.dev/xmlrpc.php">
+    <title>Matchstick | Proposed Specification for Flint 2.0</title>
+    <link rel="stylesheet" id="lato-font" href='http://fonts.googleapis.com/css?family=Lato:300,400,700' type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="http://matchstick.dev/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" id="style-css" href="http://matchstick.dev/style.css" type="text/css" media="all" />
+  </head>
+  <body class="page page-id-1134 page-child parent-pageid-5 page-template-default group-blog">
+    <div id="page" class="hfeed site">
+      <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+      <header id="masthead" class="site-header" role="banner">
+        <div class="site-branding">
+          <h1 class="site-title"><a href="http://matchstick.dev/" rel="home">Theme Review</a></h1>
+          <p class="site-description">Just another WordPress site</p>
+        </div>
+        <!-- .site-branding -->
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+          <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+          <div class="menu-all-pages-flat-container">
+            <ul id="primary-menu" class="menu">
+              <li id="menu-item-1708" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1708"><a href="http://matchstick.dev/">Home</a></li>
+              <li id="menu-item-1709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1709"><a href="http://matchstick.dev/blog.html">Blog</a></li>
+              <li id="menu-item-1710" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-701 current_page_item menu-item-1710"><a href="http://matchstick.dev/formatting.html">Formatting</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- #site-navigation -->
+      </header>
+      <!-- #masthead -->
+      <div id="content" class="site-content">
+        <div id="primary" class="content-area">
+          <main id="main" class="site-main" role="main">
+            <article id="post-1134" class="post-1134 page type-page status-publish hentry">
+              <header class="entry-header">
+                <h1 class="entry-title">Page Markup And Formatting</h1> </header>
+              <!-- .entry-header -->
+              <div class="entry-content">
+                <p><strong>Headings</strong></p>
+                <h1>Header one</h1>
+                <h2>Header two</h2>
+                <h3>Header three</h3>
+                <h4>Header four</h4>
+                <h5>Header five</h5>
+                <h6>Header six</h6>
+                <h2>Blockquotes</h2>
+                <p>Single line blockquote:</p>
+                <blockquote>
+                  <p>Stay hungry. Stay foolish.</p>
+                </blockquote>
+                <p>Multi line blockquote with a cite reference:</p>
+                <blockquote>
+                  <p>People think focus means saying yes to the thing you&#8217;ve got to focus on. But that&#8217;s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I&#8217;m actually as proud of the things we haven&#8217;t done as the things I have done. Innovation is saying no to 1,000 things. <cite>Steve Jobs &#8211; Apple Worldwide Developers&#8217; Conference, 1997</cite></p>
+                </blockquote>
+                <h2>Tables</h2>
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Employee</th>
+                      <th class="views">Salary</th>
+                      <th></th>
+                    </tr>
+                    <tr class="odd">
+                      <td><a href="http://example.com/">Jane</a></td>
+                      <td>$1</td>
+                      <td>Because that&#8217;s all Steve Job&#8217; needed for a salary.</td>
+                    </tr>
+                    <tr class="even">
+                      <td><a href="http://example.com">John</a></td>
+                      <td>$100K</td>
+                      <td>For all the blogging he does.</td>
+                    </tr>
+                    <tr class="odd">
+                      <td><a href="http://example.com/">Jane</a></td>
+                      <td>$100M</td>
+                      <td>Pictures are worth a thousand words, right? So Tom x 1,000.</td>
+                    </tr>
+                    <tr class="even">
+                      <td><a href="http://example.com/">Jane</a></td>
+                      <td>$100B</td>
+                      <td>With hair like that?! Enough said&#8230;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2>Definition Lists</h2>
+                <dl>
+                  <dt>Definition List Title</dt>
+                  <dd>Definition list division.</dd>
+                  <dt>Startup</dt>
+                  <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+                  <dt>#dowork</dt>
+                  <dd>Coined by Rob Dyrdek and his personal body guard Christopher &#8220;Big Black&#8221; Boykins, &#8220;Do Work&#8221; works as a self motivator, to motivating your friends.</dd>
+                  <dt>Do It Live</dt>
+                  <dd>I&#8217;ll let Bill O&#8217;Reilly will <a title="We'll Do It Live" href="https://www.youtube.com/watch?v=O_HyZ5aW76c">explain</a> this one.</dd>
+                </dl>
+                <h2>Unordered Lists (Nested)</h2>
+                <ul>
+                  <li>List item one
+                    <ul>
+                      <li>List item one
+                        <ul>
+                          <li>List item one</li>
+                          <li>List item two</li>
+                          <li>List item three</li>
+                          <li>List item four</li>
+                        </ul>
+                      </li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                      <li>List item four</li>
+                    </ul>
+                  </li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                  <li>List item four</li>
+                </ul>
+                <h2>Ordered List (Nested)</h2>
+                <ol>
+                  <li>List item one
+                    <ol>
+                      <li>List item one
+                        <ol>
+                          <li>List item one</li>
+                          <li>List item two</li>
+                          <li>List item three</li>
+                          <li>List item four</li>
+                        </ol>
+                      </li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                      <li>List item four</li>
+                    </ol>
+                  </li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                  <li>List item four</li>
+                </ol>
+                <h2>HTML Tags</h2>
+                <p>These supported tags come from the WordPress.com code <a title="Code" href="http://en.support.wordpress.com/code/">FAQ</a>.</p>
+                <p><strong>Address Tag</strong></p>
+                <address>1 Infinite Loop<br />
+Cupertino, CA 95014<br />
+United States</address>
+                <p><strong>Anchor Tag (aka. Link)</strong></p>
+                <p>This is an example of a <a title="Apple" href="http://apple.com">link</a>.</p>
+                <p><strong>Abbreviation Tag</strong></p>
+                <p>The abbreviation <abbr title="Seriously">srsly</abbr> stands for &#8220;seriously&#8221;.</p>
+                <p><strong>Acronym Tag</strong></p>
+                <p>The acronym <acronym title="For The Win">ftw</acronym> stands for &#8220;for the win&#8221;.</p>
+                <p><strong>Big Tag</strong></p>
+                <p>These tests are a <big>big</big> deal, but this tag is no longer supported in HTML5.</p>
+                <p><strong>Cite Tag</strong></p>
+                <p>&#8220;Code is poetry.&#8221; &#8212;<cite>Automattic</cite></p>
+                <p><strong>Code Tag</strong></p>
+                <p>You will learn later on in these tests that <code>word-wrap: break-word;</code> will be your best friend.</p>
+                <p><strong>Delete Tag</strong></p>
+                <p>This tag will let you <del>strikeout text</del>, but this tag is no longer supported in HTML5 (use the <code>&lt;strike&gt;</code> instead).</p>
+                <p><strong>Emphasize Tag</strong></p>
+                <p>The emphasize tag should <em>italicize</em> text.</p>
+                <p><strong>Insert Tag</strong></p>
+                <p>This tag should denote <ins>inserted</ins> text.</p>
+                <p><strong>Keyboard Tag</strong></p>
+                <p>This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
+                <p><strong>Preformatted Tag</strong></p>
+                <p>This tag styles large blocks of code.</p>
+                <pre>.post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
+}</pre>
+                <p><strong>Quote Tag</strong></p>
+                <p><q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer</p>
+                <p><strong>Strong Tag</strong></p>
+                <p>This tag shows <strong>bold<strong> text.</strong></strong>
+                </p>
+                <p><strong>Subscript Tag</strong></p>
+                <p>Getting our science styling on with H<sub>2</sub>O, which should push the &#8220;2&#8221; down.</p>
+                <p><strong>Superscript Tag</strong></p>
+                <p>Still sticking with science and Isaac Newton&#8217;s E = MC<sup>2</sup>, which should lift the 2 up.</p>
+                <p><strong>Teletype Tag</strong></p>
+                <p>This rarely used tag emulates <tt>teletype text</tt>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
+                <p><strong>Variable Tag</strong></p>
+                <p>This allows you to denote <var>variables</var>.</p>
+              </div>
+              <!-- .entry-content -->
+              <footer class="entry-footer">
+              </footer>
+              <!-- .entry-footer -->
+            </article>
+            <!-- #post-## -->
+            <div id="comments" class="comments-area">
+              <div id="respond" class="comment-respond">
+                <h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/about/page-markup-and-formatting/#respond" style="display:none;">Cancel reply</a></small></h3>
+                <form action="http://matchstick.dev/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+                  <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>
+                  <p class="comment-form-author">
+                    <label for="author">Name <span class="required">*</span></label>
+                    <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' />
+                  </p>
+                  <p class="comment-form-email">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' />
+                  </p>
+                  <p class="comment-form-url">
+                    <label for="url">Website</label>
+                    <input id="url" name="url" type="url" value="" size="30" />
+                  </p>
+                  <p class="comment-form-comment">
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea>
+                  </p>
+                  <p class="form-allowed-tags" id="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+                  <p class="form-submit">
+                    <input name="submit" type="submit" id="submit" class="submit" value="Post Comment" />
+                    <input type='hidden' name='comment_post_ID' value='1134' id='comment_post_ID' />
+                    <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                  </p>
+                </form>
+              </div>
+              <!-- #respond -->
+            </div>
+            <!-- #comments -->
+          </main>
+          <!-- #main -->
+        </div>
+        <!-- #primary -->
+        <div id="secondary" class="widget-area" role="complementary">
+        </div>
+        <!-- #secondary -->
+      </div>
+      <!-- #content -->
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info">
+          <a href="http://wordpress.org/">Proudly powered by WordPress</a>
+          <span class="sep"> | </span> Theme: underscores by <a href="http://underscores.me/" rel="designer">Underscores.me</a>. </div>
+        <!-- .site-info -->
+      </footer>
+      <!-- #colophon -->
+    </div>
+    <!-- #page -->
+    <script type='text/javascript' src='http://matchstick.dev/wp-content/themes/underscores/js/navigation.js?ver=20120206'></script>
+    <script type='text/javascript' src='http://matchstick.dev/wp-content/themes/underscores/js/skip-link-focus-fix.js?ver=20130115'></script>
+    <script type='text/javascript' src='http://matchstick.dev/wp-includes/js/comment-reply.min.js?ver=4.2.2'></script>
+  </body>
+</html>
